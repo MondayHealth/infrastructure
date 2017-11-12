@@ -21,6 +21,11 @@ Monday's server infrastructure is split into small, single-purpose microservices
 
 OS: Ubuntu 16.04
 Install: [dokku](http://dokku.viewdocs.io/dokku~v0.10.3/getting-started/installation/)
+Customize: 
+
+Create a shared directory for CSV files:
+
+    dokku storage:mount monday-scraper /var/lib/dokku/data/storage:/app/storage
 
 ### monday-crawler
 
