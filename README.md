@@ -25,7 +25,7 @@ Install: [dokku](http://dokku.viewdocs.io/dokku~v0.10.3/getting-started/installa
 ### monday-crawler
 
 OS: Ubuntu 16.04
-Install: [dokku](http://dokku.viewdocs.io/dokku~v0.10.3/getting-started/installation/)
+Install: [dokku](http://dokku.viewdocs.io/dokku~v0.10.3/getting-started/installation/), [polipo](https://www.irif.fr/~jch/software/polipo/)
 
 ### monday-postgres
 
