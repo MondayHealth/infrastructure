@@ -1,5 +1,9 @@
 # Infrastructure Documentation
 
+## The 10,000-Foot View
+
+For an overview of the system, request and review this [architecture diagram](https://www.draw.io/?state=%7B%22ids%22:%5B%220Bw_ibu93BOmTWHRjNzFoRGFDYUk%22%5D,%22action%22:%22open%22,%22userId%22:%22100315305599373977597%22%7D#G0Bw_ibu93BOmTWHRjNzFoRGFDYUk).
+
 ## Before You Start
 
 Before reading the rest of this guide, you'll want to familiarize yourself with the following:
