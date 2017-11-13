@@ -66,7 +66,7 @@ Install: [dokku](http://dokku.viewdocs.io/dokku~v0.10.3/getting-started/installa
 
 OS: One-click Postgres installation  
 Install: [dokku](http://dokku.viewdocs.io/dokku~v0.10.3/getting-started/installation/)  
-Customize: See the [DigitalOcean guide](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04) for info on how to create databases and users. Need to open up postgres to [outside connections](http://www.thegeekstuff.com/2014/02/enable-remote-postgresql-connection/?utm_source=tuicool, too. Create one database and a user, dokku, with a password that will end up in DATABASE_URL across all environments.
+Customize: See the [DigitalOcean guide](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04) for info on how to create databases and users. Need to open up postgres to [outside connections](http://www.thegeekstuff.com/2014/02/enable-remote-postgresql-connection/?utm_source=tuicool), too. Create one database and a user, dokku, with a password that will end up in DATABASE_URL across all environments.
 
 ### monday-redis
 
