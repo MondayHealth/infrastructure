@@ -15,6 +15,17 @@ Before reading the rest of this guide, you'll want to familiarize yourself with 
 
 To access the cloud servers, you'll also need to be added to our account on [DigitalOcean](https://www.digitalocean.com/).
 
+## Hosts
+
+You should probably update your local hosts file to point to our servers' IP addresses until we give them DNS entries:
+
+    # add to /etc/hosts with current values from DigitalOcean
+    165.227.99.213  monday-scraper
+    104.236.123.116 monday-crawler
+    174.138.95.195  monday-postgres
+    174.138.65.100  monday-ssdb
+    138.197.20.146  monday-redis
+
 ## Servers
 
 Monday's server infrastructure is split into small, single-purpose microservices, each hosted on its own DigitalOcean droplet:
