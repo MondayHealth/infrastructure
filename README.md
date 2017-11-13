@@ -1,5 +1,20 @@
 # Infrastructure Documentation
 
+## Before You Start
+
+Before reading the rest of this guide, you'll want to familiarize yourself with the following:
+
+- [Dokku](http://dokku.viewdocs.io/dokku/) (it will also help to know the basics of [Docker](https://www.docker.com/))
+- [Foreman](https://github.com/ddollar/foreman)
+- [Redis](https://redis.io/)
+- [SSDB](http://ssdb.io/)
+- [Postgres](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
+- [ActiveRecord](http://guides.rubyonrails.org/active_record_basics.html)
+- [Resque](https://github.com/resque/resque)
+- [Selenium](https://github.com/SeleniumHQ/selenium/wiki/Ruby-Bindings)
+
+To access the cloud servers, you'll also need to be added to our account on [DigitalOcean](https://www.digitalocean.com/).
+
 ## Servers
 
 Monday's server infrastructure is split into small, single-purpose microservices, each hosted on its own DigitalOcean droplet:
